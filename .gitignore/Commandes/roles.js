@@ -3,7 +3,7 @@
 exports.run = (client, message, args) => {
 
     var osu = message.guild.roles.find(`name`, "• HABITANTS •");//ajouter
-    var rip = message.guild.roles.find(`name`, "étranger");//retirer
+    var rip = message.guild.roles.find(`name`, "Etranger");//retirer
     //____________________________________________
     try {
         message.member.removeRole(rip);
