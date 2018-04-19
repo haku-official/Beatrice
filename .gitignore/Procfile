@@ -1,1 +1,1 @@
-worker: node Beatrice
+worker: node index
