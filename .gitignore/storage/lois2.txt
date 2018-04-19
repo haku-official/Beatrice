@@ -1,0 +1,27 @@
+﻿
+__***Informations du Serveur***__
+
+Majiyusekai est un serveur RP créé le 24 mars 2018 par FUU. 
+Dans ce serveur on peut créé son personnage et vivre une vie parallèles afin de se détendre et de changer d’atmosphère. 
+Le serveur possède son propre bot développé par FUU (avec l'aide de Mlle Sophie et de TEAMCED_PIKACHU du serveur Kobayashi's coffee [FR]) 
+qui utilise des gifs gérés par Aiichirō Seiteiki.
+
+Majiyusekai a pour thème un monde parallèle remplit d'humains, d’esprits, d’animaux,... 
+On incarne son propre personnage. On peut acheter des accessoires, des armes,... afin de gagner ces
+combats ou ces défit (à venir). On peut aussi faire partit d'une guilde (en cours de développement). 
+Chaque habitant peut avoir une spécialité (par ex : vendeurs, magicien,...). 
+
+__***Informations histoires***__
+
+Le monde de Majiyusekai possède une histoire qui prend forme grâce à votre activité sur le serveur.
+Chaque bataille, combats, événements,... auquel vous participerez sera compté dans le récit. 
+Toutes les deux semaines une commandes sera ajouté aux BOT ainsi qu'un message sera disponible
+dans le salon #histoire. Vous pourrez donc avoir un résumé de ce que vous avez raté dans les deux
+semaines afin de ne pas être perdu.
+Si vous voulez être au courant de toutes les choses qui se sont déroulées pendant la journée,
+vous n'avez qu'a tapé la commande :
+
+		```;journal```
+
+Ainsi le rôle journal vous sera attribué, vous pourrez voir le salon `#journal`
+(dans la catégorie Histoire) et être au courant de tout.

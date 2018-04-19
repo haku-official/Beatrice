@@ -1,0 +1,34 @@
+﻿ACTIONS
+;hug <utilisateur>
+;kiss <utilisateur>
+;pat <utilisateur>
+;poke <utilisateur>
+;slap <utilisateur>
+;punch <utilisateur>
+
+RÉACTION
+;confus
+;pout
+;smug
+;stare
+
+ADMIN
+;ban <utilisateur> <raison>
+;clear <utilisateur> <raison>
+;kick <utilisateur> <raison>
+;tempmute <utilisateur> <raison>
+
+RP
+;coins
+;hdeb
+;payer
+;FicheChiro
+;FicheBeatrice
+;FicheFuu
+;level
+
+TLM
+;help
+;info
+;ping
+;report <utilisateur> <raison>

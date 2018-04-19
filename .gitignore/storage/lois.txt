@@ -1,0 +1,46 @@
+﻿__***Lois du monde***__
+
+**Lois générales**
+
+__ARTICLE 1__
+Vous devez respecter tout membres du serveur, donc les insultes, les moqueries,... ne sont tolérées
+
+__ARTICLE 2__
+Le Contenu personnel ne doit être dévoilé (Nom de familles, Numéro de téléphones, adresse,...)
+
+__ARTICLE 3__
+Les consignes données par le staff doivent être respectées
+
+__ARTICLE 4__
+Vous n'avez pas le droit de faire de la publicité (Pour votre site, votre serveur discord,...)
+
+__ARTICLE 5__
+Le spam est formellement interdit
+
+__ARTICLE 6__
+Aucun contenue NSFW, en rapport avec le nazisme,... n'est toléré 
+
+__ARTICLE 7__
+Il faut nous signaler votre faites un long moment d'inactivité (plus de 7 jours) dans la salon #inactivité
+
+__ARTICLE 8__
+Les personnes inactives (sans alibis) pendant plus de sept jours seront expulsées
+
+**Lois RP**
+
+__ARTICLE 1__
+Votre présence à un événement doit être confirmée en cochant la case  ✅
+
+__ARTICLE 2__
+Les personnes n'ayant pas de fiche après les quatre premiers jours de leur arrivée seront expulsés. 
+
+__ARTICLE 3__
+La participation au système de RP du serveur est obligatoire. 
+
+Je vous prie de parler d'autres sujets que le RP uniquement dans le salon #général
+
+__***Incidents***__
+
+Tu es victime ou témoins d'attaque/de menace/de publicité sur le serveur ? Fait nous en part en tapant la commande: 
+		
+		```;report <@utilisateur> <raison>```
