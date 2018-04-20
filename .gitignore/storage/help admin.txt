@@ -1,0 +1,5 @@
+Commandes staff
+;ban <utilisateur> <raison>
+;clear <utilisateur> <raison>
+;kick <utilisateur> <raison>
+;tempmute <utilisateur> <raison>
