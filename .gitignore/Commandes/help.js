@@ -15,8 +15,8 @@ exports.run = (bot, msg, args) => {
 
 
 
-    msg.delete();
-    member.user.send(embed);
+        msg.delete();
+    msg.channel.send("chargement en cours..").then(m => m.edit(embed) );
 };
 
 
