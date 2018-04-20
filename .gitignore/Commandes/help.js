@@ -16,8 +16,7 @@ exports.run = (bot, msg, args) => {
 
 
     msg.delete();
-    message.channel.send(embed);
-
+    member.user.send(embed);
 };
 
 
