@@ -11,7 +11,7 @@ exports.run = (bot, msg, args) => {
         .addField("sexe", "Masculin")
         .addField("Taille", "Inconnue")
         .addField("Poids", "Inconnu")
-        .addField("Orientation sexuelle", "Inconnu")
+        .addField("Orientation sexuelle", "Inconnue")
         .addField("Races", "Mi-Humain/Mi-Esprit")
         .addField("Personnalité", "Fuu est une personne très solitaire. Il est aussi distant des autres personnes et n'est pas très sociale. ")
         .addField("Pouvoir", "Maîtrise l'eau à la perfection, peut contrôler  les esprits. Quand il est là, la plus tombe. 😑, il est aussi capabale de créer et fermer des portails spatio-temporel.")
