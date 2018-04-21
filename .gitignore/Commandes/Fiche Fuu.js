@@ -9,7 +9,7 @@ exports.run = (bot, msg, args) => {
         .addField("Prénom", "Fuu (フーー)")
         .addField("Âge", "Inconnu")
         .addField("sexe", "Masculin")
-        .addField("Taille", "Inconnu")
+        .addField("Taille", "Inconnue")
         .addField("Poids", "Inconnu")
         .addField("Orientation sexuelle", "Inconnu")
         .addField("Races", "Mi-Humain/Mi-Esprit")
