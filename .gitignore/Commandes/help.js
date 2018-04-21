@@ -7,9 +7,10 @@ var commandsList = fs.readFileSync('storage/help.txt', 'utf8')
 
 exports.run = (bot, msg, args) => {
 
-    member.user.send(commandsList);
+    msg.channel.send(commandsList);
 
 };
+
 
 
 exports.help = {
