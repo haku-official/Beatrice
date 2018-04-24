@@ -4,7 +4,7 @@ var fs = require('fs');
 bot.commands = new Discord.Collection();
 var commandsList = fs.readFileSync('storage/help.txt', 'utf8')
 
-module.exports.run = async (member) => {
+module.exports.run = async (bot, message, args) => {
 
        try {
         await tomute.send(`Tu a été rendu muet pendant ${mutetime}.`)
