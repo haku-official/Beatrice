@@ -17,5 +17,5 @@ exports.run = (bot, msg, args) => {
 
 
 exports.help = {
-    name: 'helpadmin'
+    name: 'hadmin'
 };
