@@ -75,8 +75,8 @@ bot.on("ready", async () => {
   });
 
 bot.on("guildMemberAdd", (member) => {
-    if (member.guild.channels.has("427215648268222487")) {
-        var chBienvenue = member.guild.channels.find('id', '427215648268222487');
+    if (member.guild.channels.has("438455650989899796")) {
+        var chBienvenue = member.guild.channels.find('id', '438455650989899796');
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
