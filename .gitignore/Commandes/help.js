@@ -5,7 +5,7 @@ var fs = require('fs');
 bot.commands = new Discord.Collection();
 var commandsList = fs.readFileSync('storage/help.txt', 'utf8')
 
-exports.run = (member) => {
+exports.run = (bot, msg, args) => {
 
     member.user.send(commandsList);
 
