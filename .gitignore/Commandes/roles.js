@@ -2,7 +2,7 @@
 
 exports.run = (client, message, args) => {
 
-    var osu = message.guild.roles.find(`name`, "• HABITANTS •");//ajouter
+    var osu = message.guild.roles.find(`name`, "• SANS FICHES •");//ajouter
     var rip = message.guild.roles.find(`name`, "Etranger");//retirer
     //____________________________________________
     try {
