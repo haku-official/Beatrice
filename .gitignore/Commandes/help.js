@@ -8,6 +8,7 @@ var commandsList = fs.readFileSync('storage/help.txt', 'utf8')
 
 exports.run = (bot, msg, args) => {
 
+    msg.delete();
     msg.author.createDM().then(channel => {
         channel.send(commandsList);
     });
