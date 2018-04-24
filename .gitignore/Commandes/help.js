@@ -6,7 +6,11 @@ var commandsList = fs.readFileSync('storage/help.txt', 'utf8')
 
 module.exports.run = async (member) => {
 
-    member.user.send(commandsList);
+       try {
+        await tomute.send(`Tu a été rendu muet pendant ${mutetime}.`)
+    } catch (e) {
+        message.channel.send(`A user has been muted... but their DMs are locked. They will be muted for ${mutetime}`)
+    }
 
 };
 
