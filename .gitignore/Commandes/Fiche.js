@@ -4,8 +4,7 @@ exports.run = (bot, msg, args) => {
 
 	var embed = new Discord.RichEmbed()
         .setColor("#33cccc")
-        .setAuthor(`Fiche de Kirito`, 'https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png')
-        .addField("Pseudo du joueur", "Anastasia")
+        .setAuthor(`Fiche de Anastasia`, 'https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png')
 	.addField("Nom", "Karika")
         .addField("Prénom", "Shinatobe")
         .addField("Surnom", "L'Oni Shiro Nomu hito.")
