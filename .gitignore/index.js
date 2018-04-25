@@ -4,10 +4,12 @@ var fs = require('fs');
 var botconfig = require("./botconfig.json");
 var tokenfile = require("./token.json");
 bot.commands = new Discord.Collection();
+var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
+const bot = new Discord.Client();
+let coins = require("./coins.json");
 let xp = require("./xp.json");
 let purple = botconfig.purple;
-let coins = require("./coins.json");
-var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
+
 
 //  m o n e y
 
