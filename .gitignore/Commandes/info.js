@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
         .setColor("#33cccc")
         .setThumbnail(sicon)
         .addField("Nom du serveur", message.guild.name)
-        .addField("Créer le", message.guild.createdAt)
+        .addField("test", message.guild.createdAt)
         .addField("Nombres d'utilisateur", message.guild.memberCount);
 
     message.channel.send(serverembed);
