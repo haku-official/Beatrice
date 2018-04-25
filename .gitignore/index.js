@@ -4,11 +4,10 @@ var fs = require('fs');
 var botconfig = require("./botconfig.json");
 var tokenfile = require("./token.json");
 bot.commands = new Discord.Collection();
-var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
-const bot = new Discord.Client();
-let coins = require("./coins.json");
 let xp = require("./xp.json");
 let purple = botconfig.purple;
+let coins = require("./coins.json");
+var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
 
 
 //  m o n e y
@@ -152,43 +151,41 @@ bot.on("message", async message => {
 
         message.channel.send(coinEmbed).then(msg => { msg.delete(5000) });
     }
-let xpAdd = Math.floor(Math.random() * 7) + 8;
-  console.log(xpAdd);
 
-  if(!xp[message.author.id]){
-    xp[message.author.id] = {
-      xp: 0,
-      level: 1
-    };
-  }
+    if (message.author.bot) return;
+    if (message.channel.type === "dm") return;
 
+  
 
-  let curxp = xp[message.author.id].xp;
-  let curlvl = xp[message.author.id].level;
-  let nxtLvl = xp[message.author.id].level * 300;
-  xp[message.author.id].xp =  curxp + xpAdd;
-  if(nxtLvl <= xp[message.author.id].xp){
-    xp[message.author.id].level = curlvl + 1;
-    let lvlup = new Discord.RichEmbed()
-    .setTitle("Level Up!")
-    .addField("New Level", curlvl + 1);
+    let xpAdd = Math.floor(Math.random() * 7) + 8;
+    console.log(xpAdd);
 
-    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
-  }
-  fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
-    if(err) console.log(err)
-  });
-
-  let prefix = prefixes[message.guild.id].prefixes;
-  let messageArray = message.content.split(" ");
-  let cmd = messageArray[0];
-  let args = messageArray.slice(1);
-
-  let commandfile = bot.commands.get(cmd.slice(prefix.length));
-  if(commandfile) commandfile.run(bot,message,args);
+    if (!xp[message.author.id]) {
+        xp[message.author.id] = {
+            xp: 0,
+            level: 1
+        };
+    }
 
 
+    let curxp = xp[message.author.id].xp;
+    let curlvl = xp[message.author.id].level;
+    let nxtLvl = xp[message.author.id].level * 300;
+    xp[message.author.id].xp = curxp + xpAdd;
+    if (nxtLvl <= xp[message.author.id].xp) {
+        xp[message.author.id].level = curlvl + 1;
+        let lvlup = new Discord.RichEmbed()
+            .setTitle("Level Up!")
+            .setColor("#33cccc")
+            .addField("Nouveau Level", curlvl + 1);
 
+        message.channel.send(lvlup).then;
+    }
+    fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
+        if (err) console.log(err)
+    });
+
+    
 });
 
 
