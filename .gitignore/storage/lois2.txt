@@ -6,10 +6,11 @@ Dans ce serveur on peut créé son personnage et vivre une vie parallèles afin 
 Le serveur possède son propre bot développé par FUU (avec l'aide de Mlle Sophie et de TEAMCED_PIKACHU du serveur Kobayashi's coffee [FR]) 
 qui utilise des gifs gérés par Aiichirō Seiteiki.
 
-Majiyusekai a pour thème un monde parallèle remplit d'humains, d’esprits, d’animaux,... 
+Majiyusekai a pour thème un monde parallèle remplit d'humains, d’esprits, d’animaux,... qui est dans un monde médiévales.
 On incarne son propre personnage. On peut acheter des accessoires, des armes,... afin de gagner ces
 combats ou ces défit (à venir). On peut aussi faire partit d'une guilde (en cours de développement). 
 Chaque habitant peut avoir une spécialité (par ex : vendeurs, magicien,...). 
+
 
 __***Informations histoires***__
 
@@ -25,3 +26,10 @@ vous n'avez qu'a tapé la commande :
 
 Ainsi le rôle journal vous sera attribué, vous pourrez voir le salon `#journal`
 (dans la catégorie Histoire) et être au courant de tout.
+
+Les Limites
+Le monde a quand même des limites: 
+-Tu ne peux pas avoir un personnages qui soit futuriste.
+-Le monde a un niveau de médecine égal a celui d'aujourd'hui.
+-L'équipements militaire est plutôt restraint. Tu n'as pas le droit de prendre une arme (en rapport avec notre époque) autres que le couteaux ou le pistolet.
+-L'agriculture reste la même qu'au Moyen-Âge
