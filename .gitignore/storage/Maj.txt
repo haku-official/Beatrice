@@ -1,0 +1,19 @@
+__**Notes de MAJ**__
+
+Dans la prochaine MAJ (non datée), il y aura :
+
+__Pour les ajouts de salons__
+
+De nouveaux salons Village
+De nouveaux lieux (Montagnes, lac, grottes,...)
++ quelques illustrations des lieux (peut être plus tard)
+
+__Pour les ajouts de commandes__
+
+Commandes Réactions et Action (cry, kill,...)
+Système de guilde (peut être plus tard)
+Systèmes d'achats
+Systèmes d'utilisation des armes et des accessoires achetés
+
+
+```Il y aura peut-être des ajouts donc la liste n'est pas complète```
