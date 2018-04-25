@@ -19,7 +19,7 @@ exports.run = (bot, msg, args) => {
 	.addField("Armes","Une grosse épée , et plusieurs autres épées")
         .addField("Points Faibles", "Son passé , elle évite d’en reparler et elle risque de fondre en larmes en y repensant ")
 	.addField("Histoire", "Alors qu’elle était toute jeune , elle a vu sa famille et sa maison brûler sous ses yeux. Prise au piège par un autre démon qui était la cause de cet incendie , elle fut torturée jusqu’au jour où elle a réussi à se détacher et a tuer se démon , elle voyage longtemps , espérant trouver un lieu meilleur")
-        .setImage('https://media.discordapp.net/attachments/438671787652415507/438672243770261506/e2ffa80ea269114bb40f4043e11a584b.jpg?width=632&height=911')
+        .setImage('https://media.discordapp.net/attachments/427586463308447745/438699789454934016/image.png')
 	.setFooter("Beatrice Développé par FUU | V1.0 ")
         .setTimestamp()
 
