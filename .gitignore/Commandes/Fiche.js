@@ -4,9 +4,8 @@ exports.run = (bot, msg, args) => {
 
 	var embed = new Discord.RichEmbed()
         .setColor("#33cccc")
-        .setAuthor(`Fiche de Luden`, 'https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png')
-	.addField("Nom", "Katsukin")
-        .addField("Prénom", "Tomoe")
+        .setAuthor(`Fiche de BiJiGiZ`, 'https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png')
+        .addField("Prénom", "Artorias")
         .addField("Surnom", "la prêtresse sans sanctuaire")
         .addField("Âge", "28 ans")
         .addField("sexe", "Femme")
