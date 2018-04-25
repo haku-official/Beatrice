@@ -150,39 +150,42 @@ bot.on("message", async message => {
 
         message.channel.send(coinEmbed).then(msg => { msg.delete(5000) });
     }
+let xpAdd = Math.floor(Math.random() * 7) + 8;
+  console.log(xpAdd);
 
-    if (message.author.bot) return;
-    if (message.channel.type === "dm") return;
-
-  
-
-    let xpAdd = Math.floor(Math.random() * 7) + 8;
-    console.log(xpAdd);
-
-    if (!xp[message.author.id]) {
-        xp[message.author.id] = {
-            xp: 0,
-            level: 1
-        };
-    }
+  if(!xp[message.author.id]){
+    xp[message.author.id] = {
+      xp: 0,
+      level: 1
+    };
+  }
 
 
-    let curxp = xp[message.author.id].xp;
-    let curlvl = xp[message.author.id].level;
-    let nxtLvl = xp[message.author.id].level * 300;
-    xp[message.author.id].xp = curxp + xpAdd;
-    if (nxtLvl <= xp[message.author.id].xp) {
-        xp[message.author.id].level = curlvl + 1;
-        let lvlup = new Discord.RichEmbed()
-            .setTitle("Level Up!")
-            .setColor("#33cccc")
-            .addField("Nouveau Level", curlvl + 1);
+  let curxp = xp[message.author.id].xp;
+  let curlvl = xp[message.author.id].level;
+  let nxtLvl = xp[message.author.id].level * 300;
+  xp[message.author.id].xp =  curxp + xpAdd;
+  if(nxtLvl <= xp[message.author.id].xp){
+    xp[message.author.id].level = curlvl + 1;
+    let lvlup = new Discord.RichEmbed()
+    .setTitle("Level Up!")
+    .setColor(purple)
+    .addField("New Level", curlvl + 1);
 
-        message.channel.send(lvlup).then;
-    }
-    fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
-        if (err) console.log(err)
-    });
+    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
+  }
+  fs.writeFile("./xp.json", JSON.stringify(xp), (err) => {
+    if(err) console.log(err)
+  });
+
+  let prefix = prefixes[message.guild.id].prefixes;
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+  let commandfile = bot.commands.get(cmd.slice(prefix.length));
+  if(commandfile) commandfile.run(bot,message,args);
+
 
 
 });
