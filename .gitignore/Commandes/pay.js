@@ -38,11 +38,11 @@ module.exports.run = async (bot, message, args) => {
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
 
-    if(!fs.existsSync("../coins.json")){
+    if(!fs.existsSync("./coins.json")){
         return console.log("Ce fichier n'existe pas !");
     }
     
-    fs.writeFile("../coins.json", JSON.stringify(coins), (err) => {
+    fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
         if (err) console.log(err)
     });
 
