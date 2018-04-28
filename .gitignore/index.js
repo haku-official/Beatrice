@@ -139,7 +139,7 @@ bot.on("message", async message => {
 
     if (coinAmt === baseAmt) {
         coins[message.author.id] = {
-            coins: coins[message.author.id].coins + coinAmt
+            coins: parseInt(coins[message.author.id].coins) + coinAmt
         };
         fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
             if (err) console.log(err)
