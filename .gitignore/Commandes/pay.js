@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
 
     if (sCoins < args[0]) return message.reply("Vous n'avez pas assez d'argent!");
     
-    let coinsUser = parseInt(args[1])
+    let coinsUser = parseInt(args[1]);
     if(isNaN(coinsUser))
     {
         return message.reply("Valeur incorrecte !");
