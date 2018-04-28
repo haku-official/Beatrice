@@ -21,13 +21,19 @@ module.exports.run = async (bot, message, args) => {
     let sCoins = coins[message.author.id].coins;
 
     if (sCoins < args[0]) return message.reply("Vous n'avez pas assez d'argent!");
-
+    
+    let coinsUser = parseInt(args[1])
+    if(isNaN(coinsUser))
+    {
+        return message.reply("Valeur incorrecte !");
+    }
+    
     coins[message.author.id] = {
         coins: sCoins - parseInt(args[1])
     };
 
     coins[pUser.id] = {
-        coins: pCoins + parseInt(args[1])
+        coins: pCoins + 
     };
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
