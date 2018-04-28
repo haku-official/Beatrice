@@ -38,7 +38,7 @@ module.exports.run = async (bot, message, args) => {
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
 
-    fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
+    fs.writeFile("../coins.json", JSON.stringify(coins), (err) => {
         if (err) cosole.log(err)
     });
 
