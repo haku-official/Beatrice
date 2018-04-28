@@ -28,13 +28,9 @@ module.exports.run = async (bot, message, args) => {
         return message.reply("Valeur incorrecte !");
     }
     
-    coins[message.author.id] = {
-        coins: sCoins - coinsUser
-    };
+    coins[message.author.id].coins = sCoins - coinsUser;
 
-    coins[pUser.id] = {
-        coins: pCoins + coinsUser
-    };
+    coins[pUser.id].coins = pCoins + coinsUser;
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
 
