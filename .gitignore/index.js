@@ -6,7 +6,7 @@ var tokenfile = require("./token.json");
 bot.commands = new Discord.Collection();
 let xp = require("./xp.json");
 let purple = botconfig.purple;
-let coins = require("./coins.json");
+let coins;
 var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
 
 
@@ -126,7 +126,7 @@ bot.on("guildMemberRemove", (member) => {
 })
 
 bot.on("message", async message => {
-
+    coins = require("./coins.json");
     if (!coins[message.author.id]) {
         coins[message.author.id] = {
             coins: 0
