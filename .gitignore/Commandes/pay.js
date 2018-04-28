@@ -29,11 +29,11 @@ module.exports.run = async (bot, message, args) => {
     }
     
     coins[message.author.id] = {
-        coins: sCoins - parseInt(args[1])
+        coins: sCoins - coinsUser
     };
 
     coins[pUser.id] = {
-        coins: pCoins + 
+        coins: pCoins + coinsUser
     };
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
