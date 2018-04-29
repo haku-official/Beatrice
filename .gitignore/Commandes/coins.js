@@ -2,13 +2,13 @@
 
 module.exports.run = async (bot, message, args) => {
     //!coins
-    if (!global.coins[message.author.id]) {
-        global.coins[message.author.id] = {
+    if (!coins[message.author.id]) {
+        coins[message.author.id] = {
             coins: 0
         };
     }
 
-    let uCoins = global.coins[message.author.id].coins;
+    let uCoins = coins[message.author.id].coins;
 
 
     let coinEmbed = new Discord.RichEmbed()
