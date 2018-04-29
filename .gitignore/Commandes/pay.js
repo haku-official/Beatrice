@@ -4,20 +4,20 @@ const fs = require("fs");
 module.exports.run = async (bot, message, args) => {
     //!pay @isatisfied 59345
 
-    if (!global.coins[message.author.id]) {
+    if (!coins[message.author.id]) {
         return message.reply("Vous n'avez pas d'argent!")
     }
 
     let pUser = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
 
-    if (!global.coins[pUser.id]) {
-        global.coins[pUser.id] = {
+    if (!coins[pUser.id]) {
+        coins[pUser.id] = {
             coins: 0
         };
     }
 
-    let pCoins = global.coins[pUser.id].coins;
-    let sCoins = global.coins[message.author.id].coins;
+    let pCoins = coins[pUser.id].coins;
+    let sCoins = coins[message.author.id].coins;
 
     if (sCoins < args[0]) return message.reply("Vous n'avez pas assez d'argent!");
     
@@ -27,9 +27,9 @@ module.exports.run = async (bot, message, args) => {
         return message.reply("Valeur incorrecte !");
     }
     
-    global.coins[message.author.id].coins = sCoins - coinsUser;
+    coins[message.author.id].coins = sCoins - coinsUser;
 
-    global.coins[pUser.id].coins = pCoins + coinsUser;
+    coins[pUser.id].coins = pCoins + coinsUser;
 
     message.channel.send(`${message.author} paye ${pUser} avec ${args[1]} coins`);
 
@@ -37,7 +37,7 @@ module.exports.run = async (bot, message, args) => {
         return console.log("Ce fichier n'existe pas !");
     }
     
-    fs.writeFile("./coins.json", JSON.stringify(global.coins), (err) => {
+    fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
         if (err) console.log(err)
     });
 
