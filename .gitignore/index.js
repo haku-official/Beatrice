@@ -6,7 +6,7 @@ var tokenfile = require("./token.json");
 bot.commands = new Discord.Collection();
 let xp = require("./xp.json");
 let purple = botconfig.purple;
-global.coins = require("./coins.json");
+let coins;
 var commandsList = fs.readFileSync('storage/Bvn.txt', 'utf8')
 
 
@@ -68,8 +68,8 @@ bot.on("ready", async () => {
             message.reply("```❌| cette commande n'existe pas.```");  
         }
     } else {
-        if (!global.coins[message.author.id]) {
-            global.coins[message.author.id] = {
+        if (!coins[message.author.id]) {
+            coins[message.author.id] = {
                 coins: 0
             };
         }
@@ -79,10 +79,11 @@ bot.on("ready", async () => {
         console.log(`${coinAmt} ; ${baseAmt}`);
 
         if (coinAmt === baseAmt) {
-            global.coins[message.author.id] = {
-                coins: parseInt(global.coins[message.author.id].coins) + coinAmt
+            coins = require("./coins.json");
+            coins[message.author.id] = {
+                coins: parseInt(coins[message.author.id].coins) + coinAmt
             };
-            fs.writeFile("./coins.json", JSON.stringify(global.coins), (err) => {
+            fs.writeFile("./coins.json", JSON.stringify(coins), (err) => {
                 if (err) console.log(err)
             });
             let coinEmbed = new Discord.RichEmbed()
