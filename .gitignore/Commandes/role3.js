@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
         console.log("Le role " + osu.name + " n'a pas pu être ajouté à " + message.author.username + " !");
     }
     message.delete().catch(O_o => { });
-    message.channel.send("```Vous avez obtenu(e) le rôle |🎥GhibliFan🎥|```")
+    message.channel.send("```Vous avez obtenu(e) le rôle |🎥GhibliFan🎥|```").then(msg => {msg.delete(5000)});
 
     let enterembed = new Discord.RichEmbed()
         .setDescription(`${message.author} est entré dans le monde`)
@@ -30,5 +30,5 @@ exports.run = (client, message, args) => {
 };
 
 module.exports.help = {
-    name: 'GFan'
+    name: 'JFan'
 };
