@@ -18,9 +18,6 @@ exports.run = (client, message, args) => {
     message.delete().catch(O_o => { });
     message.channel.send("```Vous avez obtenu(e) le rôle |🎮VideoGameFan🎮|```").then(msg => {msg.delete(5000)});
 
-    let enterembed = new Discord.RichEmbed()
-        .setDescription(`${message.author} est entré dans le monde`)
-        .setColor("#33cccc")
         
 
     let incidentschannel = message.guild.channels.find(`name`, "général");
