@@ -30,5 +30,5 @@ exports.run = (client, message, args) => {
 };
 
 module.exports.help = {
-    name: 'JFan'
+    name: 'GFan'
 };
