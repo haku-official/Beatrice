@@ -50,6 +50,32 @@ bot.on("ready", async () => {
   
 //bot.on('message', censure => {
  
+bot.on("message" , async message => {
+    
+    
+    if(message.author.bot) return;
+    if(message.channel.type === "dm") return;
+  
+    let prefix = botconfig.prefix;
+    let messageArray = message.content.split(" ");
+    let cmd = messageArray[0];
+    let args = messageArray.slice(1);
+   if (message.content.startsWith(prefix)) {
+        let commandfile = bot.commands.get(cmd.slice(prefix.length));
+        if(commandfile) 
+        
+      
+    {
+      
+        
+      
+        commandfile.run(bot,message,args);
+    } else {
+        message.reply("```❌| cette commande n'existe pas.```");  
+        }
+    }
+  });
+
 
 bot.on("guildMemberAdd", (member) => {
     if (member.guild.channels.has("438455650989899796")) {
