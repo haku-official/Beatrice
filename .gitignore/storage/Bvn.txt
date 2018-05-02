@@ -1,7 +1,7 @@
 **Bienvenue sur le monde de Majiyusekai**
 
 ------------------------------------------
-
+RP:
 Je suis Beatrice l'esprit gardien de ce monde. J'ai un contrat avec Fuu. Je dois donc te guider pendant ton aventure dans le monde.
 Je te conseille d'écouter ce que je vais te dire, sinon tu ne pourras pas accéder au serveur.
 
@@ -13,7 +13,7 @@ Je te conseille d'écouter ce que je vais te dire, sinon tu ne pourras pas accé
 	• salon `#toutes-les-infos`
 • Puis valide ta lecture en cliquant ou en touchant la case ✅
 
-• Maintenant tu peux enfin accéder au serveur est devenir un `• SANS FICHES •`
+• Maintenant tu peux enfin accéder au serveur est devenir un `• MEMBRES •`
 	• tape alors, dans le salon `#Bienvenue`, la commande `;entrer`
 
 ------------------------------------------
