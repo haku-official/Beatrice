@@ -14,26 +14,3 @@ Si une attaque est porté envers un joueur le tour suivant seras sois une défen
 
 PS: Celui qui abuse des esquives alors qu'il a de grosse probabilité de se faire touché seras sanctionné 
 
-__**Informations histoires**__
-
-Le monde de Majiyusekai possède une histoire qui prend forme grâce à votre activité sur le serveur. Chaque bataille, combats, événements,... auquel vous participerez sera compté dans le récit. Toutes les deux semaines une commandes sera ajouté aux BOT ainsi qu'un message sera disponible dans le salon #histoire. Vous pourrez donc avoir un résumé de ce que vous avez raté dans les deux semaines afin de ne pas être perdu. Si vous voulez être au courant de toutes les choses qui se sont déroulées pendant la journée, vous n'avez qu'a tapé la commande
-
-```;journal```
-
-Ainsi le rôle journal vous sera attribué, vous pourrez voir le salon `#journal` (dans la catégorie Histoire) et être au courant de tout. 
-
-
-__**Les Limites**__
-
-Le monde a quand même des limites: 
--Tu ne peux pas avoir un personnages qui soit futuriste. 
--Le monde a un niveau de médecine égal a celui d'aujourd'hui. 
--L’équipement militaire est plutôt restreint. Tu n'as pas le droit de prendre une arme (en rapport avec notre époque) autres que le couteaux ou le pistolet. 
--L'agriculture reste la même qu'au Moyen-Âge 
-
-__**Rôles RP :**__
-
-Pour avoir un rôle (louvez, combattant,...), il te suffit de le demander dans le salon  `#demandes-rôles-rp`
-
-
-Cliquez sur la case ✅ si vous avez lus.
