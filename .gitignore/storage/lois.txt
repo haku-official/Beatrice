@@ -1,6 +1,4 @@
-﻿__***Lois du monde***__
-
-**Lois générales**
+__**Lois**__
 
 __ARTICLE 1__
 Vous devez respecter tous membres du serveur, donc les insultes, les moqueries,... ne sont tolérées
@@ -26,21 +24,29 @@ Il faut nous signaler quand votre faites un long moment d'inactivité (plus de 7
 __ARTICLE 8__
 Les personnes inactives (sans alibis) pendant plus de sept jours seront expulsées
 
-**Lois RP**
+__ARTICLE 9__
+Vous avez interdiction de faire de la pub pour votre serveur
 
-__ARTICLE 1__
-Votre présence à un événement doit être confirmée en cochant la case  ✅
+__**Incidents**__
 
-__ARTICLE 2__
-Les personnes n'ayant pas de fiche après les quatre premiers jours de leur arrivée seront expulsés. 
+Tu es victime ou témoin d'attaque/de menace/de publicité sur le serveur ? Fait nous en part en tapant la commande: 
 
-__ARTICLE 3__
-La participation au système de RP du serveur est obligatoire. 
+        ```;report <@utilisateur> <raison>```
 
-Je vous prie de parler d'autres sujets que le RP uniquement dans le salon #général
 
-__***Incidents***__
+__**Sanctions**__
 
-Tu es victime ou témoins d'attaque/de menace/de publicité sur le serveur ? Fait nous en part en tapant la commande: 
-		
-		```;report <@utilisateur> <raison>```
+Si vous enfreignez les lois, vous subissez des sanctions suivant votre faute.
+Vous pouvez subir 3 tempmute maximum (1h, 6h et 12h), si vous dépassez cette limite vous serez bannie.
+
+
+__**Informations du serveur**__
+
+Majiyusekai est un serveur RP et communautaire créé le 24 mars 2018 par FUU. Le serveur possède son propre bot développé par FUU (avec l'aide de Mlle Sophie et de TEAMCED du serveur Kobayashi's coffee [FR]) 
+qui utilise des gifs gérés par Aiichirō Seiteiki.
+
+💨 Côté Communautaire:
+On peut parler avec chaque membres et s'amuser. Mais on peut faire bien plus encore...
+
+💨 Côté RP:
+Dans ce serveur on peut créer son personnage et vivre une vie parallèles afin de se détendre et de changer d’atmosphère. 
