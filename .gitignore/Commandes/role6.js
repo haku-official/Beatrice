@@ -19,9 +19,7 @@ exports.run = (client, message, args) => {
     message.channel.send("```Vous avez obtenu(e) le rôle • SANS FICHES •, vous pouvez maintenant avoir accès à la partie RP```").then(msg => {msg.delete(5000)});
 
 
-    let incidentschannel = message.guild.channels.find(`name`, "général");
-    if (!incidentschannel) return message.reply("Please create a incidents channel first!");
-    incidentschannel.send(enterembed);
+   
     
 };
 
