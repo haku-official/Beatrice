@@ -18,6 +18,13 @@ Je te conseille d'écouter ce que je vais te dire, sinon tu ne pourras pas accé
 
 ------------------------------------------
 
+```Pour rejoindre le RP```
+
+• JE t'invite à taper la commande dans le salon (#commandes-bot):
+```;rp```
+
+------------------------------------------
+
 ```Pour rejoindre l'histoire```
 
 • Je t'invite à lire le commancement de l'histoire (épinglé)
