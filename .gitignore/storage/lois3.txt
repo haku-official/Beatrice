@@ -1,35 +1,39 @@
-﻿
-__***Recrutement***__
+__**Lois RP**__
 
-Si tu veut entrer dans le staff, il te suffit de répondre à ce document.
+__ARTICLE 1__
+Votre présence à un événement doit être confirmée en cochant la case  
 
-https://goo.gl/forms/riV3BLoGJ4toVsF83
+__ARTICLE 2__
+Les personnes n'ayant pas de fiche après les quatre premiers jours de leur arrivée seront expulsés. 
 
-__***Événements***__
+__**Combats**__
+Les combats seront mené par un arbitre présent ou non pour commencé (c'est a dire sois un personnage de rp suivra le combat sois simplement un modo diras si il y a des problèmes ou pas)
+Il faut instauré un ordre de passage sur les joueurs qui passe leurs tour. Donc les tours se dévoile de cette façon: 
+-Action + Parler puis c'est au tour de l'autre joueur. 
+Si une attaque est porté envers un joueur le tour suivant seras sois une défense sois une action de retraite ou de contre attaque. 
 
-Les événements seront annoncé dans le salon annonces. Si il y a une modification vous serez
-informé de la même façon.
+PS: Celui qui abuse des esquives alors qu'il a de grosse probabilité de se faire touché seras sanctionné 
 
-__***Guildes***__
+__**Informations histoires**__
 
-**En développement**
+Le monde de Majiyusekai possède une histoire qui prend forme grâce à votre activité sur le serveur. Chaque bataille, combats, événements,... auquel vous participerez sera compté dans le récit. Toutes les deux semaines une commandes sera ajouté aux BOT ainsi qu'un message sera disponible dans le salon #histoire. Vous pourrez donc avoir un résumé de ce que vous avez raté dans les deux semaines afin de ne pas être perdu. Si vous voulez être au courant de toutes les choses qui se sont déroulées pendant la journée, vous n'avez qu'a tapé la commande
 
-__***Rôles***__
+```;journal```
 
-**Les rôles que vous pouvez avoir**
-
-|🗾JapanFan🗾|
-|🎥GhibliFan🎥|
-|🎮VideoGameFan🎮|
-|📹Anime/MangaFan📖|
-|KpopFan|
-
-**Utilité de cette option + Comment obtenir ces rôles**
-
-Cela sert à pouvoir parler de sujet qui vous passionne avec d'autres Fan dans la tranquillité.
-Il vous suffira donc, de demander le rôle que vous voulez dans le salon #demandes-rôle. 
-Vous devrez répondre à des questions précise en privé. Si le test est réussie, le rôle vous sera
-attribué.
+Ainsi le rôle journal vous sera attribué, vous pourrez voir le salon `#journal` (dans la catégorie Histoire) et être au courant de tout. 
 
 
-**Clique sur la case  ✅ si tu as lu.**
+__**Les Limites**__
+
+Le monde a quand même des limites: 
+-Tu ne peux pas avoir un personnages qui soit futuriste. 
+-Le monde a un niveau de médecine égal a celui d'aujourd'hui. 
+-L’équipement militaire est plutôt restreint. Tu n'as pas le droit de prendre une arme (en rapport avec notre époque) autres que le couteaux ou le pistolet. 
+-L'agriculture reste la même qu'au Moyen-Âge 
+
+__**Rôles RP :**__
+
+Pour avoir un rôle (louvez, combattant,...), il te suffit de le demander dans le salon  `#demandes-rôles-rp`
+
+
+Cliquez sur la case ✅ si vous avez lus.
