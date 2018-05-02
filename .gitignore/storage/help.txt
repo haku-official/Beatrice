@@ -36,8 +36,6 @@ __RP__
 
 `;FicheBeatrice` Pour voir la fiche de Beatrice
 
-`;FicheFuu` Pour voir la fiche de Fuu
-
 `;level` Pour voir son level
 
 
