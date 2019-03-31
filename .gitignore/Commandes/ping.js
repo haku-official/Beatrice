@@ -8,7 +8,7 @@ exports.run = (bot, msg, args) => {
         .setAuthor(`Votre vitesse de connexion`, 'https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png')
         .addField("🔧 | API", `**l'atence de** ${Math.round(bot.ping)}**ms**`, true)
         .addField("👩 | pseudo", msg.author.username , true)
-        .setFooter("Beatrice Développé par FUU | V1.0 ")
+        .setFooter("Beatrice Développé par Ikko | V1.0 ")
         .setTimestamp()
       
     

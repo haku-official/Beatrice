@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Raison", kReason);
 
     let kickChannel = message.guild.channels.find(`name`, "incident");
-    if (!kickChannel) return message.channel.send("Can't find incidents channel.");
+    if (!kickChannel) return message.channel.send("Can't find incident channel.");
 
     message.guild.member(kUser).kick(kReason);
     kickChannel.send(kickEmbed);

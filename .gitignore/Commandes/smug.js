@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
     let embed = new Discord.RichEmbed()
         .setColor("#33cccc")
         .setImage(gifs[Math.floor(Math.random() * gifs.length)])
-        .setFooter("Beatrice développé par FUU | V1.0")
+        .setFooter("Beatrice développé par Ikko | V1.0")
 
     message.channel.send(embed);
 

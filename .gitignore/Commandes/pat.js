@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
         .setAuthor("ACTION", "https://cdn.discordapp.com/attachments/404897408548470796/414675570237112330/364443168470597633.png")
         .addField("😍", message.author.toString() + " caresse la tête de " + rUser.user.toString())
         .setImage(gifs[Math.floor(Math.random() * gifs.length)])
-        .setFooter("Beatrice développé par FUU | V1.0")
+        .setFooter("Beatrice développé par Ikko | V1.0")
 
     message.channel.send(embed);
 
