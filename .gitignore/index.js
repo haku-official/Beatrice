@@ -78,8 +78,8 @@ bot.on("message" , async message => {
 
 
 bot.on("guildMemberAdd", (member) => {
-    if (member.guild.channels.has("5065840774663372816")) {
-        var chBienvenue = member.guild.channels.find('id', '5065840774663372816');
+    if (member.guild.channels.has("506584077466337281")) {
+        var chBienvenue = member.guild.channels.find('id', '506584077466337281');
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
@@ -104,8 +104,8 @@ bot.on("guildMemberAdd", (member) => {
 });
 
 bot.on("guildMemberRemove", (member) => {
-    if (member.guild.channels.has("5065840774663372816")) {
-        var chBienvenue = member.guild.channels.find('id', '5065840774663372816');
+    if (member.guild.channels.has("506584077466337281")) {
+        var chBienvenue = member.guild.channels.find('id', '506584077466337281');
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
