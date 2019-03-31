@@ -91,7 +91,8 @@ bot.on("guildMemberAdd", (member) => {
         var bembed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setTitle("Bienvenue sur Orario, je te conseille de faire un tour dans le salon #Règlement puis de nous faire un petit coucou dans le salon #Général")
-
+        
+        chBienvenue.send(embed);
         member.user.send(bembed);
 
         member.user.send(commandsList);
@@ -105,7 +106,7 @@ bot.on("guildMemberAdd", (member) => {
 
 bot.on("guildMemberRemove", (member) => {
     if (member.guild.channels.has("506584077466337281")) {
-        member.guild.channels.find("name", "🤡-bienvenue");
+        ver chBienvenue = member.guild.channels.find("name", "🤡-bienvenue");
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
@@ -113,7 +114,8 @@ bot.on("guildMemberRemove", (member) => {
             .addField("🙋 | Nombres de personnes actuellement:", member.guild.memberCount, true)
             .setTitle("Sayōnara " + member.user.username)
             .setFooter("Beatrice Développé par Ikko | V1.0");
-
+        
+        chBienvenue.send(embed);
       
 
 
