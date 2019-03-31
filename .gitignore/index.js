@@ -94,7 +94,6 @@ bot.on("guildMemberAdd", (member) => {
 
         member.user.send(bembed);
 
-        member.user.send(commandsList);
 
        
 
