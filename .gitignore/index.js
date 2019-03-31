@@ -38,7 +38,7 @@ fs.readdir("./Commandes/", (err, files) => {
   //--------- CONNEXION DU BOT AVEC STATUS ------------------------
 bot.on("ready", async () => {
     console.log(`Rem est connecté avec succès!`);
-      bot.user.setActivity(` ;help | avec Ikko `, {type: "PLAYING"});
+      bot.user.setActivity(` ;//help | avec Ikko `, {type: "PLAYING"});
     
     });
   
