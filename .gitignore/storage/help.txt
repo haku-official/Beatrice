@@ -1,0 +1,33 @@
+__ACTIONS__
+
+`;hug <utilisateur>` Pour faire un calin à un utilisateur
+
+`;kiss <utilisateur>` Pour faire un bisou à un utilisateur
+
+`;pat <utilisateur>` Pour caresser la tête d'un utilisateur
+
+`;poke <utilisateur>` Pour poker un utilisateur
+
+`;slap <utilisateur>` Pour donner une claque à un utilisateur
+
+`;punch <utilisateur>` Pour donner une claque à un utilisateur
+
+
+__RÉACTION__
+
+`;confus` Pour montrer sa confusions
+
+`;pout` Pour bouder
+
+`;smug` Pour rire légèrement
+
+`;stare` Pour regarder
+
+
+__TLM__
+
+`;help` Pour afficher mes commandes
+
+`;ping` Pour voir son ping
+
+`;report <utilisateur> <raison>` Pour signaler le mauvais comportement d'un utilisateur
