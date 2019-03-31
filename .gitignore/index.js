@@ -79,7 +79,7 @@ bot.on("message" , async message => {
 
 bot.on("guildMemberAdd", (member) => {
     if (member.guild.channels.has("506584077466337281")) {
-        var chBienvenue = member.guild.channels.find('id', '506584077466337281');
+        var chBienvenue = member.guild.channels.find('name', '🤡-bienvenue');
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
@@ -90,7 +90,7 @@ bot.on("guildMemberAdd", (member) => {
 
         var bembed = new Discord.RichEmbed()
             .setColor("#33cccc")
-            .setTitle("Bienvenue sur Orario, je te conseille de faire un tour dans le salon #Règlement puis de nous faire un petit coucou dans le salon #Général" + member.user.username)
+            .setTitle("Bienvenue sur Orario, je te conseille de faire un tour dans le salon #Règlement puis de nous faire un petit coucou dans le salon #Général")
 
         member.user.send(bembed);
 
