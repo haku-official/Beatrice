@@ -105,7 +105,7 @@ bot.on("guildMemberAdd", (member) => {
 
 bot.on("guildMemberRemove", (member) => {
     if (member.guild.channels.has("506584077466337281")) {
-        var chBienvenue = member.guild.channels.find("name", "🤡-bienvenue");
+        member.guild.channels.find("name", "🤡-bienvenue");
         var embed = new Discord.RichEmbed()
             .setColor("#33cccc")
             .setThumbnail(member.user.avatarURL)
